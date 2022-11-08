@@ -1,0 +1,23 @@
+CREATE TABLE `data_user` (
+  `iddb` int NOT NULL,
+  `fec_altadb` varchar(45) NOT NULL,
+  `user_namedb` varchar(45) NOT NULL,
+  `codigo_zipdb` varchar(45) NOT NULL,
+  `credit_card_numdb` varchar(45) NOT NULL,
+  `credit_card_ccvdb` varchar(45) NOT NULL,
+  `cuenta_numerodb` varchar(45) NOT NULL,
+  `direcciondb` varchar(45) NOT NULL,
+  `geo_latituddb` varchar(45) NOT NULL,
+  `geo_longituddb` varchar(45) NOT NULL,
+  `color_favoritodb` varchar(45) NOT NULL,
+  `foto_dnidb` varchar(45) NOT NULL,
+  `ipdb` varchar(45) NOT NULL,
+  `autodb` varchar(45) NOT NULL,
+  `auto_modelodb` varchar(45) NOT NULL,
+  `auto_tipodb` varchar(45) NOT NULL,
+  `auto_colordb` varchar(45) NOT NULL,
+  `cantidad_compras_realizadasdb` varchar(45) NOT NULL,
+  `avatardb` varchar(80) NOT NULL,
+  `fec_birthdaydb` varchar(45) NOT NULL,
+  PRIMARY KEY (`iddb`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
