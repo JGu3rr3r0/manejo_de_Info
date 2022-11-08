@@ -1,3 +1,8 @@
+host="localhost",
+user="root",
+passwd= <archivo_Base_de_datos.txt>,
+database="db_meli"
+
 CREATE TABLE `data_user` (
   `iddb` int NOT NULL,
   `fec_altadb` varchar(45) NOT NULL,
